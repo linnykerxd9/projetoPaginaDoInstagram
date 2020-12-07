@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Instagram</title>
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+	<!--Tentei fazer como nos videos do projeto, porém não estava funcionando aqui
+		eu não sei o porque mas as regras como o display flex, align e etc não estava ficando
+		como nos videos do projeto, então eu fiz o projeto da forma que eu sei.
+
+		eu uso windows, o  navegador é Google Chrome e o programa sublime
+		talvez seja por isso que a página estava ficando toda errada ou não.
+ 	-->
+	<div class="instagram-wrapper">
+		<div class="row">
+			<div class="instagram-phone col s12 m6">
+			<img src="imagens/celular.png" alt="celular" width="400">
+			</div>
+		<div class="instagram-continue col s12 s12 m6">
+			<div class="group">
+					<img src="imagens/insta.png" id="insta-logo" alt="Instagram logo">
+				<div class="profile-photo col m12">
+					<img src="imagens/minha foto.jpeg" id="fotoPerfil" width="150" class="circle" alt="foto de perfil">
+				</div>
+				<div >
+					<a href="#"  class="instagram-login btn waves-effect waves-light blue">Continuar como Jonaslinnyker</a>
+				</div>
+				<div id="divRemover">
+					<a href="#" class="instagram-logout">Remover a conta</a>
+				</div>
+			</div>
+			<div class="group">
+				<p class="not-account"><span id="spanNotAccount">Não é Jonaslinnyker?</span></p>
+				<p class="not-account"><a href="#">Alterar conta</a>
+				 ou 
+				 <a href="#">Inscreva-se</a></p>
+			</div>
+			<div class="get-the-app">
+			<p class="get-app">Baixe o aplicativo</p>
+			<div class="row" id="divBtnApp">
+				<div class="col s5 m2">
+				<a href="#" class="app-download" id="divBtnGoogle"><img src="imagens/btnGoogle.png" width="150"></a>
+				</div>
+				<div class="col s5 m2" id="divBtnAppel">
+				<a href="#" class="app-download"><img src="imagens/btnApple.png" width="150"></a>
+				</div>
+			</div>
+			</div>								
+		</div>
+	</div>
+	</div>
+		
+
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
